@@ -22,7 +22,7 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 
 # === OTHER ====
 
-# Fix serf panicked error
+# Fix serf panicked error (Should run every time the system is rebooted!!!)
 sudo sysctl -w vm.overcommit_memory=1
 
 sudo systemctl start docker
