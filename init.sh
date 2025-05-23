@@ -24,3 +24,6 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 
 # Fix serf panicked error
 sudo sysctl -w vm.overcommit_memory=1
+
+sudo systemctl start docker
+sudo docker pull ghcr.io/wowdogemonster/nockchain-miner:latest
