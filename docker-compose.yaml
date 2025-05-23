@@ -3,19 +3,64 @@ name: nocks
 services:
   nock1:
     image: ghcr.io/wowdogemonster/nockchain-miner:latest
+    ports:
+      - "30001:3006/udp"
+    volumes:
+      - ./nockchain/.env:/nockchain/.env
+      - ./nockchain/Makefile:/nockchain/Makefile
   nock2:
     image: ghcr.io/wowdogemonster/nockchain-miner:latest
+    ports:
+      - "30002:3006/udp"
+    volumes:
+      - ./nockchain/.env:/nockchain/.env
+      - ./nockchain/Makefile:/nockchain/Makefile
   nock3:
     image: ghcr.io/wowdogemonster/nockchain-miner:latest
+    ports:
+      - "30003:3006/udp"
+    volumes:
+      - ./nockchain/.env:/nockchain/.env
+      - ./nockchain/Makefile:/nockchain/Makefile
   nock4:
     image: ghcr.io/wowdogemonster/nockchain-miner:latest
+    ports:
+      - "30004:3006/udp"
+    volumes:
+      - ./nockchain/.env:/nockchain/.env
+      - ./nockchain/Makefile:/nockchain/Makefile
   nock5:
     image: ghcr.io/wowdogemonster/nockchain-miner:latest
+    ports:
+      - "30005:3006/udp"
+    volumes:
+      - ./nockchain/.env:/nockchain/.env
+      - ./nockchain/Makefile:/nockchain/Makefile
   nock6:
     image: ghcr.io/wowdogemonster/nockchain-miner:latest
+    ports:
+      - "30006:3006/udp"
+    volumes:
+      - ./nockchain/.env:/nockchain/.env
+      - ./nockchain/Makefile:/nockchain/Makefile
   nock7:
     image: ghcr.io/wowdogemonster/nockchain-miner:latest
+    ports:
+      - "30007:3006/udp"
+    volumes:
+      - ./nockchain/.env:/nockchain/.env
+      - ./nockchain/Makefile:/nockchain/Makefile
   nock8:
     image: ghcr.io/wowdogemonster/nockchain-miner:latest
+    ports:
+      - "30008:3006/udp"
+    volumes:
+      - ./nockchain/.env:/nockchain/.env
+      - ./nockchain/Makefile:/nockchain/Makefile
   nock9:
     image: ghcr.io/wowdogemonster/nockchain-miner:latest
+    ports:
+      - "30009:3006/udp"
+    volumes:
+      - ./nockchain/.env:/nockchain/.env
+      - ./nockchain/Makefile:/nockchain/Makefile
