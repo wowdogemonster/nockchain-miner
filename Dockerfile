@@ -19,7 +19,4 @@ RUN make build
 RUN make install-nockchain-wallet
 RUN make install-nockchain
 
-# Fix serf panicked error
-RUN sysctl -w vm.overcommit_memory=1
-
 CMD [ "make", "run-nockchain" ]
