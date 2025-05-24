@@ -17,7 +17,7 @@ You can use `docker compose stats` to verify if each instance is running normall
 ## Build your own Docker image
 
 1. Clone this repository.
-1. Replace all PUBKEY with you own in the **Dockerfile**, **.env**, **Makefile** and other files.
+1. Replace all PUBKEY with your own in the **Dockerfile**, **.env**, **Makefile** and other files.
 1. Create a tag and publish a release, then the Github Action will build a Docker Image for you. (Takes approximately 1 hour 20 mins)
 
 ![image](https://github.com/user-attachments/assets/6bf5bc1d-d151-4f53-87c6-56a300eb9b1c)
