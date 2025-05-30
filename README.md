@@ -1,5 +1,8 @@
 # nockchain-miner
 
+> Currently, as claimed by the team, there is almost no chance of mining a block using the official open-source client, and I am not recommended to invest many devices for mining at this time.
+> Block distribution can be queried through [https://doge.monster/lab/nock](https://doge.monster/lab/nock).
+
 ## How to override the public key and run Docker image directly
 
 1. Clone the repository by running `git clone https://github.com/wowdogemonster/nockchain-miner.git` to your local machine and enter the **nockchain-miner** folder.
